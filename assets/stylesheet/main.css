@@ -294,6 +294,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  z-index: 3;
 }
 
 .navbar__links {
@@ -334,5 +335,52 @@ body {
 
 .navbar__links a:hover {
   background-color: #a71d66;
+}
+
+section.fixed {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  z-index: 1;
+}
+
+section.fixed.f1 {
+  background-image: url("../images/cloud.jpg");
+}
+
+section.fixed.f1 img {
+  width: 15%;
+  height: 15%;
+}
+
+section.fixed.f1 h1 {
+  color: white;
+}
+
+section.scroll {
+  padding: 4em 0;
+  z-index: 2;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 60%;
+  width: 60%;
 }
 /*# sourceMappingURL=main.css.map */
