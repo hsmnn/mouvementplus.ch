@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'opensans';
+  src: url(../font/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'opensans-bold';
+  src: url(../font/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'opensans-italic';
+  src: url(../font/OpenSans-Italic.ttf);
+}
+
+@font-face {
+  font-family: 'opensans-light';
+  src: url(../font/OpenSans-Light.ttf);
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -216,5 +236,103 @@ table {
 td,
 th {
   padding: 0;
+}
+
+/* 
+* Gobal
+*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+body,
+html {
+  font-family: opensans;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 2em;
+  word-break: break-word;
+  padding: 1em 0em;
+}
+
+p {
+  padding-bottom: 1em;
+  font-weight: 100;
+}
+
+img,
+iframe {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 5em;
+  background-color: #202020;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 60%;
+  width: 60%;
+  height: 5em;
+  margin: 0 auto;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.navbar__links a {
+  color: white;
+  font-weight: 100;
+  font-size: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 1em;
+  padding-left: 1em;
+  -webkit-transition: background-color 0.08s ease-out 0.08s;
+  transition: background-color 0.08s ease-out 0.08s;
+}
+
+.navbar__links a:hover {
+  background-color: #a71d66;
 }
 /*# sourceMappingURL=main.css.map */
