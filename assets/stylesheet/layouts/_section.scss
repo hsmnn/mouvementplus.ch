@@ -12,6 +12,7 @@ section {
         text-align: center;
         z-index: 1;
         &.f1 {
+            box-shadow: 0 0 50px rgba(0,0,0,0.5);
             background-image: url("../images/cloud.jpg");
             img {
                 width: 15%;
@@ -26,10 +27,15 @@ section {
         padding: 4em 0;
         z-index: 2;
         &.s1 {
+            box-shadow: 0 0 50px rgba(0,0,0,0.5);
             background-color: $footer-color;
         }
         &.s2 {
             margin-bottom: 8em;
+        }
+        &.s3 {
+            padding: 0;
+            padding-bottom: 8em;
         }
     }
 }

@@ -19,3 +19,17 @@
         }
     }
 }
+#submit {
+    height: 2.4em;
+    width: 5em;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    @include form__border;
+    transition: background-color 0.1s ease-out 0.1s, color 0.1s ease-out 0.1s, border 0.1s ease-out 0.1s;
+    &:hover {
+        background-color: $sec-color;
+        @include form__border--focused;
+        color: white;
+    }
+}
