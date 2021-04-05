@@ -1,0 +1,21 @@
+.card__info {
+    button {
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        background: white;
+        cursor: pointer;
+        transition: 0.4s ease;
+        padding: 0.5em;
+        &:hover {
+            background-color: $sec-color;
+            a {
+                color: white;
+            }
+        }
+        a {
+            color: black;
+            transition: 0.4s ease;
+        }
+    }
+}
