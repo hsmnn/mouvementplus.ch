@@ -462,6 +462,10 @@ section.scroll.s1 {
   background-color: #323232;
 }
 
+section.scroll.s2 {
+  margin-bottom: 8em;
+}
+
 .container {
   margin: 0 auto;
   max-width: 60%;
