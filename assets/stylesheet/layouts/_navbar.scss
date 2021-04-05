@@ -4,15 +4,27 @@
     height: $nav-height;
     background-color: $first-color;
     align-items: center;
+    justify-content: center;
+    margin: 0 auto;
     z-index: 3;
-    &__links {
+}
+.navbar__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: $content-width;
+    max-width: $content-width;
+    height: $nav-height;
+    margin: 0 auto;
+    padding: 0;
+    &--links {
         display: flex;
         flex-direction: row;
         max-width: $content-width;
-        width: $content-width;
+        width: 50%;
         height: $nav-height;
-        margin: 0 auto;
-        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
         align-items: stretch;
         a {
             color: white;
@@ -27,5 +39,20 @@
                 background-color: $sec-color;
             }
         }
+    }
+    &--logo {
+        margin: 0;
+        padding: 0;
+        height: $nav-height;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        a {
+            display: flex;
+            align-items: center;
+            width: 10%;
+            height: 10%;
+        }
+
     }
 }
