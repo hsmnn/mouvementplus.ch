@@ -336,6 +336,85 @@ body {
   color: white;
 }
 
+.card {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin: 30px;
+  background: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
+  -webkit-box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+.card:hover:before {
+  opacity: 1;
+}
+
+.card:hover .card__info {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+}
+
+.card__info {
+  position: relative;
+  z-index: 3;
+  color: white;
+  opacity: 0;
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card__info h2 {
+  margin: 0px;
+  font-size: 1.2em;
+  padding: 0;
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -579,85 +658,6 @@ footer a:hover {
   width: 11em;
 }
 
-.card {
-  width: 250px;
-  height: 250px;
-  border-radius: 15px;
-  padding: 1.5rem;
-  margin: 30px;
-  background: white;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-transition: 0.4s ease-out;
-  transition: 0.4s ease-out;
-  -webkit-box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
-}
-
-.card:hover {
-  -webkit-transform: translateY(10px);
-          transform: translateY(10px);
-}
-
-.card:hover:before {
-  opacity: 1;
-}
-
-.card:hover .card__info {
-  opacity: 1;
-  -webkit-transform: translateY(0px);
-          transform: translateY(0px);
-}
-
-.card:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  border-radius: 15px;
-  background: rgba(0, 0, 0, 0.6);
-  z-index: 2;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  opacity: 0;
-}
-
-.card img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 15px;
-}
-
-.card__info {
-  position: relative;
-  z-index: 3;
-  color: white;
-  opacity: 0;
-  -webkit-transform: translateY(30px);
-          transform: translateY(30px);
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.card__info h2 {
-  margin: 0px;
-  font-size: 1.2em;
-  padding: 0;
-}
-
 #networks .networks {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -721,5 +721,38 @@ h1::after {
   width: 2.5em;
   height: 0.3em;
   z-index: -1;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar__items--logo {
+    visibility: hidden;
+  }
+  .networks {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .networks__firstLine, .networks__secondLine {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .form__head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .field, textarea {
+    width: 8em;
+  }
+  #footer .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=main.css.map */
