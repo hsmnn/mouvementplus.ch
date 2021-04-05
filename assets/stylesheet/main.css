@@ -279,6 +279,13 @@ iframe {
 
 a {
   text-decoration: none;
+  color: black;
+  -webkit-transition: color 0.08s ease-out 0.08s;
+  transition: color 0.08s ease-out 0.08s;
+}
+
+a:hover {
+  color: #a71d66;
 }
 
 body {
@@ -447,14 +454,31 @@ section.fixed.f1 h1 {
 }
 
 section.scroll {
-  padding: 1em 0;
+  padding: 4em 0;
   z-index: 2;
+}
+
+section.scroll.s1 {
+  background-color: #323232;
 }
 
 .container {
   margin: 0 auto;
   max-width: 60%;
   width: 60%;
+}
+
+footer {
+  background-color: #323232;
+  color: black;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: black;
 }
 
 .card {
@@ -561,5 +585,28 @@ section.scroll {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+#footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#footer #contact, #footer .partners {
+  color: white;
+}
+
+#footer #contact a, #footer .partners a {
+  color: white;
+  -webkit-transition: color 0.08s ease-out 0.08s;
+  transition: color 0.08s ease-out 0.08s;
+}
+
+#footer #contact a:hover, #footer .partners a:hover {
+  color: #a71d66;
 }
 /*# sourceMappingURL=main.css.map */

@@ -23,12 +23,26 @@ section {
         }
     }
     &.scroll {
-        padding: 1em 0;
+        padding: 4em 0;
         z-index: 2;
+        &.s1 {
+            background-color: $footer-color;
+        }
     }
 }
 .container {
     margin: 0 auto;
     max-width: $content-width;
     width: $content-width;
+}
+
+footer {
+    background-color: $footer-color;
+    color: black;
+    a {
+        color: black;
+        &:hover {
+            color: black;
+        }
+    }
 }

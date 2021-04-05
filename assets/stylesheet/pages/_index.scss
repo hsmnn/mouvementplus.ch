@@ -11,3 +11,19 @@
         }
     }
 }
+#footer {
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    #contact, .partners {
+        color: white;
+        a {
+            color: white;
+            transition: color 0.08s ease-out 0.08s;
+            &:hover {
+                color: $sec-color;
+            }
+        }
+    }
+}

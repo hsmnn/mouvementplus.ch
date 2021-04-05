@@ -37,6 +37,11 @@ iframe {
 
 a {
 	text-decoration: none;
+	color: black;
+	transition: color 0.08s ease-out 0.08s;
+	&:hover {
+		color: $sec-color;
+	}
 }
 
 body {
