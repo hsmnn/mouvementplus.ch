@@ -652,7 +652,7 @@ footer a:hover {
   transition: 0.5s;
 }
 
-.card__info h1 {
+.card__info h2 {
   margin: 0px;
   font-size: 1.2em;
   padding: 0;
@@ -706,5 +706,20 @@ footer a:hover {
 
 #footer #contact__footer a:hover, #footer .partners a:hover {
   color: #a71d66;
+}
+
+h1 {
+  position: relative;
+}
+
+h1::after {
+  position: absolute;
+  content: "";
+  left: -0.1em;
+  bottom: 35px;
+  background-color: #a71d66;
+  width: 2.5em;
+  height: 0.3em;
+  z-index: -1;
 }
 /*# sourceMappingURL=main.css.map */
