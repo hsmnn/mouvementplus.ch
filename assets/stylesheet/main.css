@@ -814,6 +814,49 @@ ol {
   padding: 0;
 }
 
+.error {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#195F82), to(#A51E1D));
+  background-image: linear-gradient(to right, #195F82, #A51E1D);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.error h1 {
+  color: white;
+  font-size: 2em;
+}
+
+.error p {
+  color: white;
+}
+
+.error button {
+  height: 2.4em;
+  width: 12em;
+  background-color: #195F82;
+  color: white;
+  padding: 5px;
+  border: none;
+}
+
+.error button:hover {
+  background-color: #1c6c93;
+  color: white;
+}
+
 @media only screen and (max-width: 768px) {
   .navbar__items--logo {
     visibility: hidden;
