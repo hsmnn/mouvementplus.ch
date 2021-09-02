@@ -623,7 +623,7 @@ section.fixed.f1::before {
   width: 100%;
   height: 100%;
   opacity: 0.9;
-  background-image: url("../images/mountain.jpg");
+  background-image: url("../images/mountain2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -632,8 +632,8 @@ section.fixed.f1::before {
 
 section.fixed.f1 img {
   position: relative;
-  width: 30%;
-  height: 30%;
+  width: 40%;
+  height: 40%;
 }
 
 section.scroll {
