@@ -77,7 +77,6 @@ dfn {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
 }
 
 mark {
@@ -270,7 +269,7 @@ iframe {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #A51E1D;
   -webkit-transition: color 0.08s ease-out 0.08s;
   transition: color 0.08s ease-out 0.08s;
 }
@@ -805,6 +804,14 @@ h1::after {
   width: 2.5em;
   height: 0.15em;
   z-index: -1;
+}
+
+ol {
+  padding-left: 1em;
+}
+
+#mission p {
+  padding: 0;
 }
 
 @media only screen and (max-width: 768px) {
