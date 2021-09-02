@@ -8,17 +8,19 @@
 
         <link rel="stylesheet" href="assets/stylesheet/main.css"/>
         <script type="text/javascript" src="assets/javascript/application.js"></script>
-        <link rel="icon" type="image/png" href="assets/images/default-image.jpg">
+        <link rel="icon" type="image/png" href="assets/images/icon.png">
     </head>
     <body>
         <nav class="navbar">
             <div class="navbar__items">
                 <div class="navbar__items--logo">
-                    <a href="/"><img src="assets/images/default-image.jpg"></a>
+                    <a href="/"><img src="assets/images/logoMPBlanc.png"></a>
                 </div>
                 <div class="navbar__items--links">
-                    <a href="#about">Qui sommes-nous ?</a>
-                    <a href="event.html">Événements</a>
+                    <a href="#mission">Mission</a>
+                    <a href="#vision">Vision</a>
+                    <a href="#networks">Networks</a>
+                    <a href="#event">Événements</a>
                     <a href="#contact">Contact</a>
                 </div>
             </div>
@@ -30,31 +32,40 @@
         </nav>
 
         <section class="fixed f1" id="home">
-            <img src="assets/images/default-image.jpg">
-            <h1>OPEN HEAVEN</h1>
+            <img id="home__img" src="assets/images/logoMPBlanc.png">
+            <!--<h1>Multiplier avec passion !</h1>-->
         </section>
 
-        <section class="scroll" id="about">
+        <section class="scroll" id="mission">
             <div class="container">
                 <h1>Mission</h1>
                 <p>
                     Deserunt excepteur proident velit eiusmod do reprehenderit nulla sunt aliquip labore ut ea. Laboris velit dolore enim cillum. Lorem do pariatur culpa elit cillum.
+                    Velit aliqua aliquip veniam id fugiat officia nostrud officia aliqua deserunt dolor nulla in. Consectetur dolor nostrud velit pariatur fugiat cillum qui anim nulla sunt do in. Commodo voluptate non commodo duis commodo laboris elit eiusmod cupidatat. Proident Lorem sit nostrud ipsum eu cillum voluptate deserunt nulla. Consectetur quis commodo reprehenderit sit adipisicing aliqua ad nisi sunt eiusmod culpa culpa. Ut dolore elit et anim cillum anim est ex et eu exercitation occaecat magna mollit.
                 </p>
+            </div>
+        </section>
+
+        <section class="scroll" id="vision">
+            <div class="container">
                 <h1>Vision</h1>
                 <p>
                     Voluptate fugiat incididunt nulla mollit proident dolore consectetur ex. Veniam reprehenderit amet dolore aliquip velit reprehenderit irure. Occaecat ullamco esse consectetur elit ea ipsum excepteur in tempor incididunt laborum irure ipsum eu. Id id dolore non incididunt incididunt ex tempor nostrud consequat.
+                    Ipsum est consequat occaecat excepteur. Nostrud duis ullamco commodo et. Ad reprehenderit exercitation laboris id. Duis officia ullamco nostrud adipisicing id magna quis officia sunt Lorem.
                 </p>
             </div>
+        </section>
 
+        <section class="scroll" id="networks">
             <div id="networks">
                 <div class="container">
                     <h1>Les networks</h1>
                     <div class="networks">
                         <div class="networks__firstLine">
                             <div class="card">
-                                <img src="assets/images/default-image.jpg">
+                                <img src="assets/images/network1.jpg">
                                 <div class="card__info">
-                                    <h2>Network 1</h2>
+                                    <h2>BulleNetwork</h2>
                                     <button type="button"><a href="https://bullenetwork.ch" target="_blank">Voir le site</a></button>
                                 </div>
                             </div>
@@ -94,6 +105,16 @@
             </div>
         </section>
 
+        <section class="scroll" id="event">
+            <div class="container">
+                <h1>Événements</h1>
+                <p>
+                    Dolore eu deserunt culpa sint veniam nulla ad ipsum sint culpa sit. Minim duis duis nulla quis proident anim ea deserunt reprehenderit anim ea elit dolor. Enim ipsum incididunt esse sit cupidatat aute voluptate. Et in elit incididunt eu enim esse tempor adipisicing veniam laborum incididunt excepteur. Nisi nulla aute eu elit aute nisi proident non ullamco et aute ea culpa. Incididunt ut aute eiusmod esse officia consectetur laboris adipisicing veniam ipsum aliqua eu elit irure. Quis duis minim consequat tempor laborum minim nostrud.
+                    Aliquip qui elit velit adipisicing excepteur deserunt veniam anim occaecat est consequat Lorem fugiat. Proident velit officia enim cupidatat aliqua in ea minim consectetur labore anim aliquip. Sunt Lorem dolore fugiat sit aliquip aliquip tempor sint ad sit nulla. Nulla aliqua laborum sunt culpa fugiat anim. Reprehenderit ea fugiat aliquip enim sunt.
+                </p>
+            </div>
+        </section>
+
         <section class="scroll s3" id="contact">
             <div class="container">
                 <h1>Contact</h1>
@@ -116,7 +137,7 @@
                 <div id="contact__footer">
                     <h2>Informations</h2>
                     <p>
-                        Mouvement Plus</br>Av. de Provence 24</br>1007 Lausanne</br>Mail : <a href="mailto:mmuller@eep24.ch">Secretariat</a>
+                        Mouvement Plus</br>Av. de Provence 24</br>1007 Lausanne</br><a href="mailto:mmuller@eep24.ch">Secretariat@mouvementplus.ch</a>
                     </p>
                     <p>© Mouvement Plus</p>
                 </div>
@@ -136,4 +157,5 @@
             <p>Made with love by <a href="https://hsmnn.ch" target="_blank">Elie Hausmann</a>.</p>
         </center>
     </footer>
+    <script>stickyNav()</script>
 </html>

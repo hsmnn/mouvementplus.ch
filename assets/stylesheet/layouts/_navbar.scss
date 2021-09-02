@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     height: $nav-height;
-    background-color: $first-color;
+    @include gradient;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -55,9 +55,9 @@
             align-items: center;
             padding-right: 1em;
             padding-left: 1em;
-            transition: background-color 0.08s ease-out 0.08s;
+            transition: color 0.08s ease-out 0.08s;
             &:hover {
-                background-color: $sec-color;
+                color: lighten($sec-color, 10%);
             }
         }
     }
@@ -71,8 +71,8 @@
         a {
             display: flex;
             align-items: center;
-            width: 10%;
-            height: 10%;
+            width: 25%;
+            height: 25%;
         }
 
     }
@@ -104,7 +104,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        background: $first-color;
+        @include gradient;
         transform: translateX(100%);
         transition: transform 1s ease;
         box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);

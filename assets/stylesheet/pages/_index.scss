@@ -20,7 +20,7 @@
         color: white;
         a {
             color: white;
-            transition: color 0.08s ease-out 0.08s;
+            transition: color 0.06s ease-out 0.06s;
             &:hover {
                 color: $sec-color;
             }
@@ -33,11 +33,11 @@ h1 {
     &::after {
         position: absolute;
         content: "";
-        left: -0.1em;
-        bottom: 35px;
-        background-color: $sec-color;
+        left: -0.02em;
+        bottom: 37px;
+        @include gradient;
         width: 2.5em;
-        height: 0.3em;
+        height: 0.15em;
         z-index: -1;
     }
 }

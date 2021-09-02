@@ -1,21 +1,11 @@
 @font-face {
-  font-family: 'opensans';
-  src: url(../font/OpenSans-Regular.ttf);
+  font-family: 'dinot';
+  src: url(../font/DINOT-Regular.otf);
 }
 
 @font-face {
-  font-family: 'opensans-bold';
-  src: url(../font/OpenSans-Bold.ttf);
-}
-
-@font-face {
-  font-family: 'opensans-italic';
-  src: url(../font/OpenSans-Italic.ttf);
-}
-
-@font-face {
-  font-family: 'opensans-light';
-  src: url(../font/OpenSans-Light.ttf);
+  font-family: 'dinot-bold';
+  src: url(../font/DINOT-Bold.otf);
 }
 
 html {
@@ -252,7 +242,8 @@ th {
 
 body,
 html {
-  font-family: opensans;
+  font-family: dinot, Arial, Helvetica, sans-serif;
+  font-size: 1.05em;
   height: 100%;
 }
 
@@ -285,7 +276,7 @@ a {
 }
 
 a:hover {
-  color: #a71d66;
+  color: #195F82;
 }
 
 body {
@@ -304,7 +295,7 @@ body {
 }
 
 .card__info button:hover {
-  background-color: #a71d66;
+  background-color: #195F82;
 }
 
 .card__info button:hover a {
@@ -323,15 +314,15 @@ body {
   background-color: white;
   color: black;
   padding: 5px;
-  border: 1px solid #202020;
+  border: 1px solid black;
   border-radius: 2px;
   -webkit-transition: background-color 0.1s ease-out 0.1s, color 0.1s ease-out 0.1s, border 0.1s ease-out 0.1s;
   transition: background-color 0.1s ease-out 0.1s, color 0.1s ease-out 0.1s, border 0.1s ease-out 0.1s;
 }
 
 #submit:hover {
-  background-color: #a71d66;
-  border: 1px solid #a71d66;
+  background-color: #195F82;
+  border: 1px solid #195F82;
   border-radius: 2px;
   color: white;
 }
@@ -421,7 +412,8 @@ body {
   display: flex;
   width: 100%;
   height: 5em;
-  background-color: #202020;
+  background-image: -webkit-gradient(linear, left top, right top, from(#195F82), to(#A51E1D));
+  background-image: linear-gradient(to right, #195F82, #A51E1D);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -507,12 +499,12 @@ body {
           align-items: center;
   padding-right: 1em;
   padding-left: 1em;
-  -webkit-transition: background-color 0.08s ease-out 0.08s;
-  transition: background-color 0.08s ease-out 0.08s;
+  -webkit-transition: color 0.08s ease-out 0.08s;
+  transition: color 0.08s ease-out 0.08s;
 }
 
 .navbar__items--links a:hover {
-  background-color: #a71d66;
+  color: #217ead;
 }
 
 .navbar__items--logo {
@@ -538,8 +530,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 10%;
-  height: 10%;
+  width: 25%;
+  height: 25%;
 }
 
 .burger {
@@ -580,7 +572,8 @@ body {
             align-items: center;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    background: #202020;
+    background-image: -webkit-gradient(linear, left top, right top, from(#195F82), to(#A51E1D));
+    background-image: linear-gradient(to right, #195F82, #A51E1D);
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
     -webkit-transition: -webkit-transform 1s ease;
@@ -618,20 +611,33 @@ section.fixed {
 section.fixed.f1 {
   -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-  background-image: url("../images/cloud.jpg");
+  position: relative;
+}
+
+section.fixed.f1::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  background-image: url("../images/mountain.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 section.fixed.f1 img {
-  width: 15%;
-  height: 15%;
-}
-
-section.fixed.f1 h1 {
-  color: white;
+  position: relative;
+  width: 30%;
+  height: 30%;
 }
 
 section.scroll {
-  padding: 4em 0;
+  padding: 2em 0;
   z-index: 2;
 }
 
@@ -690,7 +696,7 @@ footer a:hover {
 
 .form .field {
   color: black;
-  border: 1px solid #202020;
+  border: 1px solid black;
   border-radius: 2px;
   height: 2.4em;
   width: 23em;
@@ -700,13 +706,13 @@ footer a:hover {
 }
 
 .form .field:focus {
-  border: 1px solid #a71d66;
+  border: 1px solid #195F82;
   border-radius: 2px;
 }
 
 .form textarea {
   color: black;
-  border: 1px solid #202020;
+  border: 1px solid black;
   border-radius: 2px;
   width: 23em;
   padding: 5px;
@@ -716,7 +722,7 @@ footer a:hover {
 }
 
 .form textarea:focus {
-  border: 1px solid #a71d66;
+  border: 1px solid #195F82;
   border-radius: 2px;
 }
 
@@ -777,12 +783,12 @@ footer a:hover {
 
 #footer #contact__footer a, #footer .partners a {
   color: white;
-  -webkit-transition: color 0.08s ease-out 0.08s;
-  transition: color 0.08s ease-out 0.08s;
+  -webkit-transition: color 0.06s ease-out 0.06s;
+  transition: color 0.06s ease-out 0.06s;
 }
 
 #footer #contact__footer a:hover, #footer .partners a:hover {
-  color: #a71d66;
+  color: #195F82;
 }
 
 h1 {
@@ -792,11 +798,12 @@ h1 {
 h1::after {
   position: absolute;
   content: "";
-  left: -0.1em;
-  bottom: 35px;
-  background-color: #a71d66;
+  left: -0.02em;
+  bottom: 37px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#195F82), to(#A51E1D));
+  background-image: linear-gradient(to right, #195F82, #A51E1D);
   width: 2.5em;
-  height: 0.3em;
+  height: 0.15em;
   z-index: -1;
 }
 
