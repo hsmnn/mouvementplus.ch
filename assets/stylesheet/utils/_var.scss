@@ -23,7 +23,3 @@ $content-width: 60%;
 @mixin gradient {
     background-image: linear-gradient(to right, $sec-color, $first-color);
 }
-
-@mixin reverse-gradient {
-    background-color: linear-gradient(to left, $sec-color, $first-color);
-}

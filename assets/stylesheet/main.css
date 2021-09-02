@@ -254,7 +254,8 @@ h5,
 h6 {
   line-height: 2em;
   word-break: break-word;
-  padding: 1em 0em;
+  padding-top: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 p {
@@ -608,8 +609,8 @@ section.fixed {
 }
 
 section.fixed.f1 {
-  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
   position: relative;
 }
 
@@ -636,7 +637,7 @@ section.fixed.f1 img {
 }
 
 section.scroll {
-  padding: 2em 0;
+  padding-top: 2em;
   z-index: 2;
 }
 
@@ -798,7 +799,7 @@ h1::after {
   position: absolute;
   content: "";
   left: -0.02em;
-  bottom: 37px;
+  bottom: 7px;
   background-image: -webkit-gradient(linear, left top, right top, from(#195F82), to(#A51E1D));
   background-image: linear-gradient(to right, #195F82, #A51E1D);
   width: 2.5em;

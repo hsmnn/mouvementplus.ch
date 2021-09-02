@@ -12,7 +12,7 @@ section {
         text-align: center;
         z-index: 1;
         &.f1 {
-            box-shadow: 0 0 50px rgba(0,0,0,0.5);
+            box-shadow: 0 0 50px rgba(0,0,0,0.2);
             position: relative;
             &::before {
                 content: '';
@@ -37,7 +37,7 @@ section {
         }
     }
     &.scroll {
-        padding: 2em 0;
+        padding-top: 2em;
         z-index: 2;
         &.s1 {
             box-shadow: 0 0 50px rgba(0,0,0,0.5);
