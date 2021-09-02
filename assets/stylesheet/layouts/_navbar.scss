@@ -97,16 +97,15 @@
     }
     .navbar__items--links {
         position: fixed;
-        top: 8vh;
+        top: $nav-height;
         right: 0;
-        height: 92vh;
+        height: 100%;
         width: 50%;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        @include gradient;
+        background-color: $first-color;
         transform: translateX(100%);
         transition: transform 1s ease;
-        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
     }
 }
