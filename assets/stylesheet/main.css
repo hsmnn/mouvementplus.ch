@@ -271,12 +271,6 @@ iframe {
 a {
   text-decoration: none;
   color: #A51E1D;
-  -webkit-transition: color 0.08s ease-out 0.08s;
-  transition: color 0.08s ease-out 0.08s;
-}
-
-a:hover {
-  color: #195F82;
 }
 
 body {

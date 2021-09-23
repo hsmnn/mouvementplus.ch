@@ -40,10 +40,6 @@ iframe {
 a {
 	text-decoration: none;
 	color: $first-color;
-	transition: color 0.08s ease-out 0.08s;
-	&:hover {
-		color: $sec-color;
-	}
 }
 
 body {
