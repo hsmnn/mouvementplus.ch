@@ -57,7 +57,7 @@
             padding-left: 1em;
             transition: color 0.08s ease-out 0.08s;
             &:hover {
-                color: lighten($sec-color, 10%);
+                color: $over-color;
             }
         }
     }

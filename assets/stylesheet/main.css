@@ -311,18 +311,18 @@ body {
 #submit {
   height: 2.4em;
   width: 5em;
-  background-color: white;
-  color: black;
+  background-color: #195F82;
+  color: white;
   padding: 5px;
-  border: 1px solid black;
+  border: 1px solid #195F82;
   border-radius: 2px;
   -webkit-transition: background-color 0.1s ease-out 0.1s, color 0.1s ease-out 0.1s, border 0.1s ease-out 0.1s;
   transition: background-color 0.1s ease-out 0.1s, color 0.1s ease-out 0.1s, border 0.1s ease-out 0.1s;
 }
 
 #submit:hover {
-  background-color: #195F82;
-  border: 1px solid #195F82;
+  background-color: #1e729c;
+  border: 1px solid #1e729c;
   border-radius: 2px;
   color: white;
 }
@@ -504,7 +504,7 @@ body {
 }
 
 .navbar__items--links a:hover {
-  color: #217ead;
+  color: #1e729c;
 }
 
 .navbar__items--logo {
@@ -693,7 +693,7 @@ footer a:hover {
 
 .form .field {
   color: black;
-  border: 1px solid black;
+  border: 1px solid #195F82;
   border-radius: 2px;
   height: 2.4em;
   width: 23em;
@@ -703,13 +703,13 @@ footer a:hover {
 }
 
 .form .field:focus {
-  border: 1px solid #195F82;
+  border: 1px solid #1e729c;
   border-radius: 2px;
 }
 
 .form textarea {
   color: black;
-  border: 1px solid black;
+  border: 1px solid #195F82;
   border-radius: 2px;
   width: 23em;
   padding: 5px;
@@ -719,7 +719,7 @@ footer a:hover {
 }
 
 .form textarea:focus {
-  border: 1px solid #195F82;
+  border: 1px solid #1e729c;
   border-radius: 2px;
 }
 
