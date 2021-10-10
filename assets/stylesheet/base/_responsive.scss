@@ -11,9 +11,6 @@
     .form__head {
         flex-direction: column;
     }
-    .field, textarea {
-        width: 8em;
-    }
     #footer .container {
         flex-direction: column;
     }
@@ -24,5 +21,11 @@
     #home__img {
         width: 90%;
         height: 90%;
+    }
+    form {
+        width: 100%;
+        #email, #msg {
+            width: 100%;
+        }
     }
 }

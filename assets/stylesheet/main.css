@@ -872,9 +872,6 @@ ol {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .field, textarea {
-    width: 8em;
-  }
   #footer .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -888,6 +885,12 @@ ol {
   #home__img {
     width: 90%;
     height: 90%;
+  }
+  form {
+    width: 100%;
+  }
+  form #email, form #msg {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
