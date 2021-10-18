@@ -896,5 +896,8 @@ ol {
   form #email, form #msg {
     width: 100%;
   }
+  .error h1 p {
+    margin: 2em;
+  }
 }
 /*# sourceMappingURL=main.css.map */
