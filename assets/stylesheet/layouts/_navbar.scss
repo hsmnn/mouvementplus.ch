@@ -97,7 +97,7 @@
     }
     .navbar__items--links {
         position: fixed;
-        top: $nav-height;
+        top: 3em;
         right: 0;
         height: 100%;
         width: 50%;
@@ -107,5 +107,6 @@
         background-color: $first-color;
         transform: translateX(100%);
         transition: transform 1s ease;
+        padding-bottom: 3em;
     }
 }

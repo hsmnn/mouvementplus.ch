@@ -1,6 +1,9 @@
 @media only screen and (max-width: 768px) {
-    .navbar__items--logo {
-        visibility: hidden;
+    .navbar {
+        height: 3em;
+        &__items--logo {
+            visibility: hidden;
+            }
     }
     .networks {
         flex-direction: column;

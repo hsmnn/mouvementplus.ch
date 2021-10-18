@@ -554,7 +554,7 @@ body {
   }
   .navbar__items--links {
     position: fixed;
-    top: 5em;
+    top: 3em;
     right: 0;
     height: 100%;
     width: 50%;
@@ -574,6 +574,7 @@ body {
     transition: -webkit-transform 1s ease;
     transition: transform 1s ease;
     transition: transform 1s ease, -webkit-transform 1s ease;
+    padding-bottom: 3em;
   }
 }
 
@@ -851,6 +852,9 @@ ol {
 }
 
 @media only screen and (max-width: 768px) {
+  .navbar {
+    height: 3em;
+  }
   .navbar__items--logo {
     visibility: hidden;
   }
