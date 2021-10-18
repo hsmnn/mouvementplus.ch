@@ -308,8 +308,8 @@ body {
 }
 
 .card {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border-radius: 15px;
   padding: 1.5rem;
   margin: 30px;
@@ -384,6 +384,15 @@ body {
   margin: 0px;
   font-size: 1.2em;
   padding: 0;
+}
+
+.card__info p {
+  margin: 0;
+  padding: 0;
+}
+
+.card__info p a {
+  color: white;
 }
 
 .navbar {
