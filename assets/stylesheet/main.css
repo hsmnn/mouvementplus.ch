@@ -823,6 +823,11 @@ ol {
   padding: 0;
 }
 
+#event h2 {
+  padding-top: 0.4em;
+  margin-bottom: 0;
+}
+
 .error {
   display: -webkit-box;
   display: -ms-flexbox;
