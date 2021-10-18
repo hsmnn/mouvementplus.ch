@@ -1,4 +1,28 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    section {
+        display: flex;
+        width: 122%;
+    }
+    .navbar {
+        height: 3em;
+        &__items--logo {
+            visibility: hidden;
+        }
+    }
+    #home__img {
+        width: 90%;
+        height: 90%;
+    }
+    .container {
+        max-width: 90%;
+        width: 90%
+    }
+    footer {
+        width: 122%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
     .navbar {
         height: 3em;
         &__items--logo {

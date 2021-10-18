@@ -110,3 +110,22 @@
         padding-bottom: 3em;
     }
 }
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .burger {
+        display: block;
+    }
+    .navbar__items--links {
+        position: fixed;
+        top: 3em;
+        right: 0;
+        height: 100%;
+        width: 30%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: $first-color;
+        transform: translateX(100%);
+        transition: transform 1s ease;
+        padding-bottom: 3em;
+    }
+}
