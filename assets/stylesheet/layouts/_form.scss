@@ -37,4 +37,13 @@
             width: 11em;
         }
     }
+    &__label {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        .field {
+            width: 3em;
+            margin-left: 0.5em;
+        }
+    }
 }

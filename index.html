@@ -5,7 +5,7 @@
         <meta name="description" content="Site du Mouvement Plus">
         <meta name="author" content="Mouvement Plus">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <meta charset="utf-8"/>
         <link rel="stylesheet" href="assets/stylesheet/main.css"/>
         <script type="text/javascript" src="assets/javascript/application.js"></script>
         <link rel="icon" type="image/png" href="assets/images/icon.png">
@@ -51,7 +51,7 @@
                                     <p><a href="https://www.eeromont.ch/" target="_blank">Romont</a></p>
                                     <p><a href="https://enhaut.eebulle.ch/" target="_blank">Château-d’Oex</a></p>
                                     <p><a href="http://www.impact-stecroix.ch/" target="_blank">Sainte-Croix</a></p>
-                                    <p><a href="https://o2vie-chatel.ch/" target="_blank">Châtel Saint-Denis</a></p>
+                                    <p><a href="https://o2vie-chatel.ch/" target="_blank">Châtel-Saint-Denis</a></p>
                                     <p>Attalens</p>
                                     <button type="button"><a href="https://bullenetwork.ch" target="_blank">Voir le site</a></button>
                                 </div>
@@ -154,6 +154,7 @@
                         <img src="assets/images/inspirationDay.png">
                         <img src="assets/images/inspirationDay2.png">
                     </div>
+                    <center><h3>Inscription</h3></center>
                     <div class="form">
                         <form method="post" action="https://formspree.io/f/mleakwdo">
                             <div class="form__head">
@@ -162,8 +163,10 @@
                             </div>
                             <input type="email" class="field" name="email" id="email" required="required" placeholder="Email"/>
                             <input type="text" class="field" name="eglise" id="eglise" placeholder="Église"/>
-                            <label for="nombre">Nombre de personnes :</label>
-                            <input type="number" class="field" name="nombre" id="nombre" value="1" min="1"/>
+                            <div class="form__label">
+                                <label for="nombre">Nombre de personnes :</label>
+                                <input type="number" class="field" name="nombre" id="nombre" value="1" min="1"/>
+                            </div>
                             <input id="submit" type="submit" class="button button--background" value="S'inscrire"/>
                         </form>
                     </div>
@@ -223,7 +226,7 @@
     </body>
     <footer>
         <center>
-            <p>Réalisé par <a href="https://hsmnn.ch" target="_blank">hsmnn</a></p>
+            <p>Réalisé par hsmnn</p>
         </center>
     </footer>
     <script>stickyNav()</script>

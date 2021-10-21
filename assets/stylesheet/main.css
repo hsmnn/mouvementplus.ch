@@ -766,6 +766,24 @@ footer a:hover {
   width: 11em;
 }
 
+.form__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.form__label .field {
+  width: 3em;
+  margin-left: 0.5em;
+}
+
 #networks .networks {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -874,6 +892,10 @@ ol {
 .inspiration__images img:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+}
+
+.inspiration .form {
+  margin-bottom: 4em;
 }
 
 .error {
