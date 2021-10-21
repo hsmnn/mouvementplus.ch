@@ -60,9 +60,9 @@
                                 <img src="assets/images/rhoneNetwork.jpg">
                                 <div class="card__info">
                                     <h2>Rhône Network</h2>
-                                    <p class="city__main"><a href="https://www.avalanchevs.com/">Sion</a></p>
-                                    <p><a href="https://chemindeviemonthey.ch/">Monthey</a></p>
-                                    <p><a href="https://www.impact-chablais.ch/">Bex</a></p>
+                                    <p class="city__main"><a href="https://www.avalanchevs.com/" target="_blank">Sion</a></p>
+                                    <p><a href="https://chemindeviemonthey.ch/" target="_blank">Monthey</a></p>
+                                    <p><a href="https://www.impact-chablais.ch/" target="_blank">Bex</a></p>
                                     <button type="button"><a href="404.html">Voir le site</a></button>
                                 </div>
                             </div>
@@ -70,8 +70,9 @@
                                 <img src="assets/images/cityLifeNetwork.png">
                                 <div class="card__info">
                                     <h2>City Life Network</h2>
-                                    <p class="city__main"><a href="https://www.citylife.ch/">Vevey</a></p>
-                                    <p><a href="http://eelecap.ch/">Aigle</a></p>
+                                    <p class="city__main"><a href="https://www.citylife.ch/" target="_blank">Vevey</a></p>
+                                    <p><a href="http://eelecap.ch/" target="_blank">? Aigle ?</a></p>
+                                    <p><a href="https://www.impact-avenches.ch/" target="_blank">? Avenches ?</a></p>
                                     <button type="button"><a href="404.html">Voir le site</a></button>
                                 </div>
                             </div>
@@ -81,12 +82,12 @@
                                 <img src="assets/images/laCoteNetwork.jpg">
                                 <div class="card__info">
                                     <h2>La Côte Network</h2>
-                                    <p class="city__main"><a href="https://www.eep24.ch/">Lausanne</a></p>
-                                    <p><a href="http://carrefourpourchrist.com/">Mont-sur-Lausanne</a></p>
-                                    <p><a href="https://newlifechurch.ch/">Morges</a></p>
+                                    <p class="city__main"><a href="https://www.eep24.ch/" target="_blank">Lausanne</a></p>
+                                    <p><a href="http://carrefourpourchrist.com/" target="_blank">Mont-sur-Lausanne</a></p>
+                                    <p><a href="https://newlifechurch.ch/" target="_blank">Morges</a></p>
                                     <p>Gland</p>
                                     <p>Renens</p>
-                                    <p><a href="https://www.eea-geneve.ch/">Genève</a></p>
+                                    <p><a href="https://www.eea-geneve.ch/" target="_blank">Genève</a></p>
                                     <button type="button"><a href="404.html">Voir le site</a></button>
                                 </div>
                             </div>
@@ -94,8 +95,8 @@
                                 <img src="assets/images/nordEstNetwork.png">
                                 <div class="card__info">
                                     <h2>Nord-Est Network</h2>
-                                    <p class="city__main"><a href="http://www.centredevie.ch/">Neuchâtel</a></p>
-                                    <p><a href="http://eaelelocle.ch/">Le Locle</a></p>
+                                    <p class="city__main"><a href="http://www.centredevie.ch/" target="_blank">Neuchâtel</a></p>
+                                    <p><a href="http://eaelelocle.ch/" target="_blank">Le Locle</a></p>
                                     <p>La Chaux-de-Fonds</p>
                                     <p>Marin</p>
                                     <button type="button"><a href="404.html">Voir le site</a></button>
@@ -144,13 +145,32 @@
         <section class="scroll" id="event">
             <div class="container">
                 <h1>Événements</h1>
+                <div class="inspiration">
+                    <h2>Inspiration Day</h2>
+                    <p>
+                        Une journée spéciale pour tous les pasteurs et les leaders qui servent dans les différentes églises de notre mouvement.
+                    </p>
+                    <div class="inspiration__images">
+                        <img src="assets/images/inspirationDay.png">
+                        <img src="assets/images/inspirationDay2.png">
+                    </div>
+                    <div class="form">
+                        <form method="post" action="https://formspree.io/f/mleakwdo">
+                            <div class="form__head">
+                                <input type="text" class="field" name="lastname" id="lastname" required="required" placeholder="Nom"/>
+                                <input type="text" class="field" name="firstname" id="firstname" required="required" placeholder="Prénom"/>
+                            </div>
+                            <input type="email" class="field" name="email" id="email" required="required" placeholder="Email"/>
+                            <input type="text" class="field" name="eglise" id="eglise" placeholder="Église"/>
+                            <label for="nombre">Nombre de personnes :</label>
+                            <input type="number" class="field" name="nombre" id="nombre" value="1" min="1"/>
+                            <input id="submit" type="submit" class="button button--background" value="S'inscrire"/>
+                        </form>
+                    </div>
+                </div>
                 <h2>Interface</h2>
                 <p>
                     Prendre du temps dans la présence de Dieu pour être renouvelé. Les échanges entre nos églises, l’amitié et la passion du Royaume avec un enseignement inspirant et pertinent pour aujourd’hui sont les éléments essentiels. Les journées interface sont réservés aux pasteurs et leaders de nos églises évangéliques apostoliques romandes.
-                </p>
-                <h2>Inspiration Day</h2>
-                <p>
-                    Une journée spéciale pour tous les pasteurs et les leaders qui servent dans les différentes églises de notre mouvement.
                 </p>
                 <h2>Rencontre de Jeunesse</h2>
                 <p>
@@ -186,7 +206,7 @@
                 <div id="contact__footer">
                     <h2>Informations</h2>
                     <p>
-                        Mouvement Plus</br>Av. de Provence 24</br>1007 Lausanne</br><a href="mailto:mmuller@eep24.ch">Secretariat@mouvementplus.ch</a>
+                        Mouvement Plus</br>Av. de Provence 24</br>1007 Lausanne</br><a href="mailto:contact@mouvementplus.ch">contact@mouvementplus.ch</a>
                     </p>
                     <p>© Mouvement Plus</p>
                 </div>

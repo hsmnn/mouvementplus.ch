@@ -845,6 +845,37 @@ ol {
   margin-bottom: 0;
 }
 
+.inspiration__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.inspiration__images img {
+  width: 70%;
+  height: 70%;
+  margin: 2em;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.inspiration__images img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
 .error {
   display: -webkit-box;
   display: -ms-flexbox;
