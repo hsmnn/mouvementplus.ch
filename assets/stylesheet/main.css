@@ -400,7 +400,7 @@ body {
 }
 
 .card__info .city__main {
-  font-family: 'dinot-bold';
+  font-family: 'dinot-bold', arial;
 }
 
 .navbar {
