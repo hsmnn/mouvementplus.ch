@@ -648,7 +648,7 @@ section.fixed.f1::before {
   width: 100%;
   height: 100%;
   opacity: 0.9;
-  background-image: url("../images/mountain.jpg");
+  background-image: url("../images/mountain.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
