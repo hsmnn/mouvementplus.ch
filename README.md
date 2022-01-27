@@ -2,7 +2,8 @@
 
 # mouvementplus.ch
 This is the Mouvement Plus website's repository. This website will replace the actual http://eear.ch website.  
-[preview](https://hsmnn.github.io/mouvementplus.ch/)
+
+Hosted by Infomaniak
 
 ## SEO
 - image description added
