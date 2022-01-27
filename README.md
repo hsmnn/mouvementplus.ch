@@ -1,3 +1,5 @@
+[![website deployment](https://github.com/hsmnn/mouvementplus.ch/actions/workflows/deploy.yml/badge.svg)](https://github.com/hsmnn/mouvementplus.ch/actions/workflows/deploy.yml)
+
 # mouvementplus.ch
 This is the Mouvement Plus website's repository. This website will replace the actual http://eear.ch website.  
 [preview](https://hsmnn.github.io/mouvementplus.ch/)
