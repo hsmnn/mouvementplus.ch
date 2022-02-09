@@ -307,6 +307,30 @@ body {
   color: white;
 }
 
+.standard_button {
+  height: 2.4em;
+  width: 12em;
+  background-color: #195F82;
+  color: white;
+  padding: 5px;
+  border: 1px solid #195F82;
+  border-radius: 2px;
+  -webkit-transition: background-color 0.1s ease-out 0.1s, color 0.1s ease-out 0.1s, border 0.1s ease-out 0.1s;
+  transition: background-color 0.1s ease-out 0.1s, color 0.1s ease-out 0.1s, border 0.1s ease-out 0.1s;
+  margin-bottom: 2em;
+}
+
+.standard_button:hover {
+  background-color: #1e729c;
+  border: 1px solid #1e729c;
+  border-radius: 2px;
+  color: white;
+}
+
+.standard_button a {
+  color: white;
+}
+
 .card {
   width: 290px;
   height: 290px;
