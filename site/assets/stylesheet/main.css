@@ -842,19 +842,16 @@ footer a:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-#footer #contact__footer, #footer .partners {
   color: white;
 }
 
-#footer #contact__footer a, #footer .partners a {
+#footer .container a {
   color: white;
   -webkit-transition: color 0.06s ease-out 0.06s;
   transition: color 0.06s ease-out 0.06s;
 }
 
-#footer #contact__footer a:hover, #footer .partners a:hover {
+#footer .container a:hover {
   color: #195F82;
 }
 

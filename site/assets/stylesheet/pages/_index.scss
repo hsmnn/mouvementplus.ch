@@ -4,23 +4,26 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        &__firstLine, &__secondLine {
+
+        &__firstLine,
+        &__secondLine {
             display: flex;
             align-items: center;
             justify-content: space-around;
         }
     }
 }
+
 #footer {
     .container {
         display: flex;
         justify-content: space-between;
-    }
-    #contact__footer, .partners {
         color: white;
+
         a {
             color: white;
             transition: color 0.06s ease-out 0.06s;
+
             &:hover {
                 color: $sec-color;
             }
@@ -30,6 +33,7 @@
 
 h1 {
     position: relative;
+
     &::after {
         position: absolute;
         content: "";
@@ -54,6 +58,7 @@ ol {
     padding-top: 0.4em;
     margin-bottom: 0;
 }
+
 .event__images {
     display: flex;
     justify-content: center;
@@ -61,16 +66,19 @@ ol {
     flex-direction: row;
     width: $content-width;
     margin: 0 auto;
+
     img {
         width: 70%;
         height: 70%;
         margin: 2em;
         transition: all 0.3s ease;
+
         &:hover {
             transform: scale(1.05);
         }
     }
 }
+
 .inspiration .form {
     margin-bottom: 4em;
 }
