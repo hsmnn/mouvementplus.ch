@@ -903,8 +903,8 @@ ol {
 }
 
 .event__images img {
-  width: 70%;
-  height: 70%;
+  width: 80%;
+  height: 80%;
   margin: 2em;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
