@@ -59,14 +59,7 @@ ol {
     margin-bottom: 0;
 }
 
-.event__images {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: $content-width;
-    margin: 0 auto;
-
+.event__image {
     img {
         width: 80%;
         height: 80%;
@@ -76,8 +69,18 @@ ol {
             transform: scale(1.05);
         }
     }
-}
-
-.inspiration .form {
-    margin-bottom: 4em;
+    &.multi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: $content-width;
+        margin: 0 auto;
+    }
+    &.bigOne {
+        width: 70%;
+        height: 70%;
+        justify-content: center;
+        margin: auto;
+    }
 }

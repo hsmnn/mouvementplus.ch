@@ -35,11 +35,10 @@
 }
 
 .standard_button {
-    height: 2.4em;
-    width: 13em;
+    height: 2.8em;
+    width: 7em;
     background-color: $sec-color;
     color: white;
-    padding: 5px;
     @include form__border;
     transition: background-color 0.1s ease-out 0.1s, color 0.1s ease-out 0.1s, border 0.1s ease-out 0.1s;
     margin-bottom: 2em;
@@ -49,6 +48,11 @@
         color: white;
     }
     a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         color: white;
+        height: 100%;
+        width: 100%;
     }
 }

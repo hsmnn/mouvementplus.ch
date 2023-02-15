@@ -308,11 +308,10 @@ body {
 }
 
 .standard_button {
-  height: 2.4em;
-  width: 13em;
+  height: 2.8em;
+  width: 7em;
   background-color: #195F82;
   color: white;
-  padding: 5px;
   border: 1px solid #195F82;
   border-radius: 2px;
   -webkit-transition: background-color 0.1s ease-out 0.1s, color 0.1s ease-out 0.1s, border 0.1s ease-out 0.1s;
@@ -328,7 +327,18 @@ body {
 }
 
 .standard_button a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: white;
+  height: 100%;
+  width: 100%;
 }
 
 .card {
@@ -884,7 +894,20 @@ ol {
   margin-bottom: 0;
 }
 
-.event__images {
+.event__image img {
+  width: 80%;
+  height: 80%;
+  margin: 2em;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.event__image img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.event__image.multi {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -902,21 +925,13 @@ ol {
   margin: 0 auto;
 }
 
-.event__images img {
-  width: 80%;
-  height: 80%;
-  margin: 2em;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.event__images img:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-.inspiration .form {
-  margin-bottom: 4em;
+.event__image.bigOne {
+  width: 70%;
+  height: 70%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
 }
 
 .error {
