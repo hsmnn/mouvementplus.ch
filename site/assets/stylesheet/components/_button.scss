@@ -55,4 +55,9 @@
         height: 100%;
         width: 100%;
     }
+    &--moveup {
+        @extend .standard_button;
+        width: 10em;
+    }
 }
+

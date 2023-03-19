@@ -307,7 +307,7 @@ body {
   color: white;
 }
 
-.standard_button {
+.standard_button, .standard_button--moveup {
   height: 2.8em;
   width: 7em;
   background-color: #195F82;
@@ -319,14 +319,14 @@ body {
   margin-bottom: 2em;
 }
 
-.standard_button:hover {
+.standard_button:hover, .standard_button--moveup:hover {
   background-color: #1e729c;
   border: 1px solid #1e729c;
   border-radius: 2px;
   color: white;
 }
 
-.standard_button a {
+.standard_button a, .standard_button--moveup a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -339,6 +339,10 @@ body {
   color: white;
   height: 100%;
   width: 100%;
+}
+
+.standard_button--moveup {
+  width: 10em;
 }
 
 .card {
