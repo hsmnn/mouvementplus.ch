@@ -288,8 +288,8 @@ body {
   transition: background-color 0.1s ease-out 0.1s, color 0.1s ease-out 0.1s, border 0.1s ease-out 0.1s;
 }
 #submit:hover {
-  background-color: #1e729c;
-  border: 1px solid #1e729c;
+  background-color: #217ead;
+  border: 1px solid #217ead;
   border-radius: 2px;
   color: white;
 }
@@ -305,8 +305,8 @@ body {
   margin-bottom: 2em;
 }
 .standard_button:hover, .standard_button--moveup:hover {
-  background-color: #1e729c;
-  border: 1px solid #1e729c;
+  background-color: #217ead;
+  border: 1px solid #217ead;
   border-radius: 2px;
   color: white;
 }
@@ -419,7 +419,7 @@ body {
   display: flex;
   width: 100%;
   height: 5em;
-  background-image: linear-gradient(to right, #195F82, #A51E1D);
+  background-color: #195F82;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -448,8 +448,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 60%;
-  max-width: 60%;
+  width: 80%;
+  max-width: 80%;
   height: 5em;
   margin: 0 auto;
   padding: 0;
@@ -458,8 +458,6 @@ body {
 .navbar__items--links {
   display: flex;
   flex-direction: row;
-  max-width: 60%;
-  width: 50%;
   height: 5em;
   margin: 0;
   padding: 0;
@@ -476,7 +474,7 @@ body {
   transition: color 0.08s ease-out 0.08s;
 }
 .navbar__items--links a:hover {
-  color: #1e729c;
+  color: black;
 }
 .navbar__items--logo {
   margin: 0;
@@ -489,8 +487,8 @@ body {
 .navbar__items--logo a {
   display: flex;
   align-items: center;
-  width: 25%;
-  height: 25%;
+  width: 10em;
+  height: 10em;
 }
 
 .burger {
@@ -635,7 +633,7 @@ footer a:hover {
   outline: none;
 }
 .form .field:focus {
-  border: 1px solid #1e729c;
+  border: 1px solid #217ead;
   border-radius: 2px;
 }
 .form textarea {
@@ -649,7 +647,7 @@ footer a:hover {
   resize: none;
 }
 .form textarea:focus {
-  border: 1px solid #1e729c;
+  border: 1px solid #217ead;
   border-radius: 2px;
 }
 .form__head {
