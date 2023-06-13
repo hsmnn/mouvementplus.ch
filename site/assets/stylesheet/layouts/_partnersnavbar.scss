@@ -1,0 +1,30 @@
+.partners_navbar {
+    display: flex;
+    width: 100%;
+    height: $nav-height;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.partners_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    .opac {
+     opacity: 0.3;
+     transition: opacity 0.1s ease-out 0.1s;
+     &:hover {
+        opacity: 1;
+     }
+    }
+    a {
+        display: flex;
+        align-items: center;
+        img {
+            height: 80%;
+        }
+    }
+}

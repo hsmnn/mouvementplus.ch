@@ -415,6 +415,37 @@ body {
   font-family: "dinot-bold", arial;
 }
 
+.partners_navbar {
+  display: flex;
+  width: 100%;
+  height: 5em;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.partners_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+}
+.partners_items .opac {
+  opacity: 0.3;
+  transition: opacity 0.1s ease-out 0.1s;
+}
+.partners_items .opac:hover {
+  opacity: 1;
+}
+.partners_items a {
+  display: flex;
+  align-items: center;
+}
+.partners_items a img {
+  height: 80%;
+}
+
 .navbar {
   display: flex;
   width: 100%;
