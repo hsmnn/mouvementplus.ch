@@ -8,14 +8,3 @@ function nav(){
         window.addEventListener('scroll', stickyNav);
     })
 }
-
-function stickyNav() {
-    const nav = document.querySelector('.navbar');
-    let navTop = nav.offsetTop;
-
-    if (window.scrollY >= navTop) {    
-        nav.classList.add('sticky');
-    } else {
-        nav.classList.remove('sticky');    
-    }
-}
