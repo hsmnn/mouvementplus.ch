@@ -15,7 +15,7 @@ jobs:
           HOST: ${{ secrets.HOST }}
           USERNAME: ${{ secrets.USERNAME }}
           PORT: ${{ secrets.PORT }}
-          KEY: ${{ secrets.KEY }}
+          PASSWORD: ${{ secrets.PASSWORD }}
         with:
           source: "site/*"
           target: "/home/clients/793e7dadbc54f2acdbb0cadc4196e9b5/sites/preview.mouvementplus.ch"
