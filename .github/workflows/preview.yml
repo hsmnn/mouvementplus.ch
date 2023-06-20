@@ -11,12 +11,11 @@ jobs:
       - uses: actions/checkout@main
       - name: sync
         uses: appleboy/scp-action@master
-        env:
+        with:
           HOST: ${{ secrets.HOST }}
           USERNAME: ${{ secrets.USERNAME }}
           PORT: ${{ secrets.PORT }}
-          PASSWORD: ${{ secrets.PASSWORD }}
-        with:
+          KEY: ${{ secrets.KEY }}
           source: "site/*"
           target: "/home/clients/793e7dadbc54f2acdbb0cadc4196e9b5/sites/preview.mouvementplus.ch"
           strip_components: 1
