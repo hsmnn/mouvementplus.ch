@@ -433,7 +433,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 60%;
+  width: 50%;
 }
 .partners_items .opac {
   opacity: 0.3;
