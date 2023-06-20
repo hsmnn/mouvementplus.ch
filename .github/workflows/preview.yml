@@ -2,7 +2,7 @@ name: website preview deployment
 
 on:
   push:
-    branches: [preview]
+    branches: [Preview]
 
 jobs:
   deploy:
