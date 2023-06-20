@@ -59,5 +59,10 @@
         @extend .standard_button;
         width: 10em;
     }
+    &--more {
+        @extend .standard_button;
+        height: 2em;
+        width: 6em;
+    }
 }
 

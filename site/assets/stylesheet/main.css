@@ -294,7 +294,7 @@ body {
   color: white;
 }
 
-.standard_button, .standard_button--moveup {
+.standard_button, .standard_button--more, .standard_button--moveup {
   height: 2.8em;
   width: 7em;
   background-color: #195F82;
@@ -304,13 +304,13 @@ body {
   transition: background-color 0.1s ease-out 0.1s, color 0.1s ease-out 0.1s, border 0.1s ease-out 0.1s;
   margin-bottom: 2em;
 }
-.standard_button:hover, .standard_button--moveup:hover {
+.standard_button:hover, .standard_button--more:hover, .standard_button--moveup:hover {
   background-color: #217ead;
   border: 1px solid #217ead;
   border-radius: 2px;
   color: white;
 }
-.standard_button a, .standard_button--moveup a {
+.standard_button a, .standard_button--more a, .standard_button--moveup a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -320,6 +320,10 @@ body {
 }
 .standard_button--moveup {
   width: 10em;
+}
+.standard_button--more {
+  height: 2em;
+  width: 6em;
 }
 
 .card {
@@ -712,6 +716,10 @@ footer a:hover {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.more {
+  display: none;
 }
 
 #footer .container {
